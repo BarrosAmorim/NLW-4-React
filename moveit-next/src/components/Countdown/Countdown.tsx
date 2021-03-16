@@ -21,7 +21,7 @@ export function Countdown() {
     function resetCountdown() {
         clearTimeout(countdownTimeout)
         setisActive(false)
-        setTime(25 * 60)
+        setTime(0.1 * 60)
     }
 
     useEffect(() => {
